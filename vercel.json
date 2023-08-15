@@ -3,7 +3,7 @@
     "outputDirectory" : "front-end/dist",
     "framework":"vite",
     "rewrites": [
-        {"source": "^/api/(.*)", "destination": "/api/$1"},
+        {"source": "/api/:path*", "destination": "https://credit-debit.vercel.app"},
         {"source": "^(.*)", "destination": "/$1"}
       ]
 }
