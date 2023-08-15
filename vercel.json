@@ -3,6 +3,7 @@
     "outputDirectory" : "front-end/dist",
     "framework":"vite",
     "rewrites":  [
-        {"source": "/(.*)", "destination": "/"}
+        {"source": "/(.*)", "destination": "/"},
+        {"source": "/api/(.*)", "destination": "/"}
       ]
 }
